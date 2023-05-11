@@ -87,11 +87,22 @@
     .head-side-2 {
         position: absolute;
         top: 50%;
-        background-size: cover;
+        width: 250px;
+        height: 250px;
     }
 
     .get-started {
         position: absolute;
         top: 100%;
+    }
+
+    .imgs {
+        width: 250px;
+        height: 250px;
+    }
+
+    .img {
+        width: 100px;
+        height: 100px;
     }
 }
