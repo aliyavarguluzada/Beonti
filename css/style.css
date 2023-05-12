@@ -96,7 +96,9 @@
 
 }
 
-
+.unsee {
+    display: none;
+}
 
 .head-side-1 h2 {
     width: 509px;
@@ -235,7 +237,7 @@
     user-select: none;
 
     position: relative;
-
+    margin-left: 25px;
     width: 60px;
     height: 60px;
     /* main color */

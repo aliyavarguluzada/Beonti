@@ -41,8 +41,7 @@
 
     .head-main {
         background-color: #F8F8FA;
-        background-color: aqua;
-        padding: 30px 0px;
+        padding: 90px 0px;
 
     }
 
@@ -57,6 +56,8 @@
     /* .head-side-1 {} */
 
     .head-side-1 p {
+        display: none;
+
         width: 99%;
         font-family: regular;
         font-weight: 400;
@@ -77,6 +78,7 @@
         height: 0;
         padding: 20px;
         background: none;
+        margin: 10px;
     }
 
     .vector-right img {
@@ -103,26 +105,32 @@
         align-items: center;
         justify-content: center;
 
+
     }
 
     .head-side-2 {
         gap: 10px;
         width: 392px;
+        height: 300px;
+
 
 
     }
 
     .get-started {
         position: absolute;
-        top: 85%;
+        top: 105%;
     }
 
     .imgs {
-        width: 230px;
-        height: 250px;
+        width: 200px;
+        height: 220px;
     }
 
     .img {
         /* display: none; */
+    }
+    .unsee {
+        display: flex;
     }
 }
