@@ -10,7 +10,8 @@
     width: 85%;
     margin: auto;
 }
-.container-1 {
+
+#container-1 {
     width: 90%;
     margin: auto;
 }
@@ -146,6 +147,7 @@
 .mamed i {
     display: none;
     font-size: 20px;
+    padding: 5px;
 
 }
 
@@ -326,12 +328,13 @@
 /* sponsors  */
 .sponsors {
     display: flex;
-    justify-content: baseline;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-around;
     gap: 20px;
+
 }
 
-.sponsors img:nth-child(1) {
+/* .sponsors img:nth-child(1) {
     width: 252px;
     height: 96px;
 }
@@ -354,25 +357,26 @@
 .sponsors img:nth-child(5) {
     width: 218px;
     height: 90px;
-}
+} */
 
 /*end sponsors  */
 
 
 /* Features */
-.off {
+/* .off {
     display: flex;
     gap: 30px;
-}
+} */
 
 .feat {
-    width: 1332px;
-    height: 498px;
+  display: flex;
+  justify-content: center;
+
+
 }
 
 .feat-side-1 {
-    width: 404px;
-    height: 92px;
+
     padding: 30px 0px;
     font-family: regular;
     font-style: normal;
@@ -388,8 +392,7 @@
 }
 
 .f1 h2 {
-    width: 140px;
-    height: 29px;
+
     font-family: regular;
     font-style: normal;
     font-weight: 600;
@@ -405,34 +408,15 @@
 
 .f1 p {
     padding: 30px 0px;
+    width: 70%;
 }
 
-.f2 {
-    padding: 30px 0px;
-    position: relative;
-    box-sizing: border-box;
-
-    width: 430px;
-    height: 160px;
-    border: 3px;
-
-    background: #281A4B;
-}
 
 .f2-2 {
-    background-color: #E8E6EB;
-    box-sizing: border-box;
-
-    position: absolute;
-    width: 430px;
-    height: 160px;
-    right: 15px;
-    top: 0px;
-
-    background: #FFFFFF;
-    border: 2px solid #E8E6EB;
-    box-shadow: 0px 0px 16px -7px rgba(0, 0, 0, 0.25);
-    border-radius: 3px
+    border: 1px solid #E8E6EB;
+    width: 70%;
+    border-radius: 6px;
+    box-shadow: 16px 0px 0px 0px #281A4B;
 }
 
 .f2-2 * {
@@ -441,8 +425,9 @@
 }
 
 .feat-side-2 {
+    padding: 30px;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-evenly;
     height: 390px;
@@ -450,13 +435,13 @@
 
 .f3 {
     box-sizing: border-box;
-
-    width: 375px;
-    height: 160px;
+    /* width: 33%; */
+    /* width: 375px;
+    height: 160px; */
 
     background: #FFFFFF;
     border: 2px solid #E8E6EB;
-    box-shadow: 0px 0px 16px -7px rgba(0, 0, 0, 0.25);
+    box-shadow: 16px 0px 0px 0px #281A4B;
     border-radius: 3px;
 
 }
