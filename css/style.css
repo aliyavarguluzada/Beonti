@@ -10,6 +10,10 @@
     width: 85%;
     margin: auto;
 }
+.container-1 {
+    width: 90%;
+    margin: auto;
+}
 
 @font-face {
     font-family: regular;
@@ -63,14 +67,14 @@
     gap: 23px;
     -webkit-touch-callout: none;
 
-    width: 630px;
-    height: 50px;
+    /* width: 630px; */
+    /* height: 50px; */
 
 
 }
 
 
-.nav3 img {
+.nav3 .mamed img {
     cursor: pointer;
 }
 
@@ -125,12 +129,26 @@
 
 .imgs img {
     display: none;
+    object-fit: cover;
+    border-radius: 20px;
 
 }
 
 /* .imgs img:nth-child(1) {
     display: flex;
 } */
+.mamed {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mamed i {
+    display: none;
+    font-size: 20px;
+
+}
+
 .img .active {
     display: flex;
     transition: all 1s ease-in-out;
@@ -448,3 +466,7 @@
 }
 
 /* End Features */
+
+
+
+/* Duymeleri a taglari ile et  */

@@ -1,11 +1,11 @@
 @media only screen and (max-width: 768px) {
     .navbar {
         position: relative;
-        width: 350px;
+        /* width: 339px; */
         /* height: 35px; */
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        /* justify-content: space-between; */
     }
 
     .burger {
@@ -14,17 +14,30 @@
     }
 
     .nav-list {
+        display: none;
         position: absolute;
         left: -100%;
         transition: all 1s ease-in-out;
     }
 
     .nav3 {
-        display: inline;
-        display: flex;
-        align-items: center;
-        width: 0px;
+        /* display: inline; */
+        /* display: flex; */
+        /* align-items: center; */
+        /* width: 0px; */
 
+    }
+
+    .mamed img:nth-child(3) {
+        display: none;
+    }
+    .mamed img:nth-child(2) {
+        display: flex!important;
+        /* padding: 10px; */
+    }
+
+    .mamed i {
+        display: flex !important;
     }
 
     .login {
@@ -130,6 +143,7 @@
     .img {
         /* display: none; */
     }
+
     .unsee {
         display: flex;
     }
