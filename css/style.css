@@ -561,6 +561,11 @@
 
 
 /* users */
+#container-users {
+    width: 92%;
+    margin: auto;
+}
+
 .users {
     display: flex;
     justify-content: space-between;
