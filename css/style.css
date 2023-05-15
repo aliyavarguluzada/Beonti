@@ -324,6 +324,7 @@
     gap: 20px;
 
 }
+
 .sponsors img {
     aspect-ratio: 3/2;
     object-fit: contain;
@@ -607,9 +608,20 @@
     padding: 20px 0px;
     text-align: center;
 }
+.bundles {
+    display: flex;
 
+}
 .bundle {
-
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.bundle p {
+    text-align:;
+    width: ;
 }
 
 /* price */
