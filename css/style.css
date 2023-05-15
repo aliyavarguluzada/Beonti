@@ -324,6 +324,10 @@
     gap: 20px;
 
 }
+.sponsors img {
+    aspect-ratio: 3/2;
+    object-fit: contain;
+}
 
 /* .sponsors img:nth-child(1) {
     width: 252px;
@@ -592,3 +596,20 @@
 }
 
 /* users */
+
+/* price */
+.prices {
+    padding: 40px;
+
+}
+
+.plan {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.bundle {
+
+}
+
+/* price */
