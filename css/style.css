@@ -608,10 +608,12 @@
     padding: 20px 0px;
     text-align: center;
 }
+
 .bundles {
     display: flex;
 
 }
+
 .bundle {
     background: #FFFFFF;
     border: 1px solid #E2E2E2;
@@ -619,8 +621,14 @@
     padding: 10px;
     text-align: center;
 }
+
+.bundle-2 {
+    background: #3B2D5D;
+    color: #E2E2E2
+}
+
 .bundle p {
-    text-align:;
+    text-align: ;
     width: ;
 }
 
