@@ -620,6 +620,9 @@
     border-radius: 10px;
     padding: 10px;
     text-align: center;
+    /* deyis olculeri */
+    width: 365px;
+    height: 660px;
 }
 
 .bundle-2 {
