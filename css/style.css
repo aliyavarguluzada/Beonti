@@ -421,9 +421,9 @@
     padding-left: 25px;
 }
 
-.feat-side-2 {
-    /
-}
+/* .feat-side-2 {
+    
+} */
 
 .f3 {
     box-sizing: border-box;
@@ -638,10 +638,10 @@
     padding: 30px
 }
 
-.bundle p {
+/* .bundle p {
     text-align: ;
     width: ;
-}
+} */
 
 .get {
     height: 385px;
@@ -685,3 +685,23 @@
 }
 
 /* End FAQ */
+
+
+/* Contact US */
+
+.contact-us {
+
+    padding: 50px;
+}
+
+.cont-act {
+    padding: 50px;
+    background-color: #F9F9F9;
+    border-radius: 20px;
+}
+
+div i {
+    padding: 20px;
+}
+
+/* End Contact US */
