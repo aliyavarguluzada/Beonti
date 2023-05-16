@@ -606,6 +606,8 @@
 
 /* price */
 .prices {
+    width: 76%;
+    margin: auto;
     padding: 40px;
 
 }
