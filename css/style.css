@@ -444,6 +444,12 @@
 }
 .f3-3 {
     padding: 20px;
+    width: 375px;
+    height: 397px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .f3 * {
@@ -627,7 +633,7 @@
     background: #FFFFFF;
     border: 1px solid #E2E2E2;
     border-radius: 10px;
-    padding: 10px;
+    padding: 40px 30px;
     text-align: center;
     /* deyis olculeri */
     width: 365px;
@@ -636,7 +642,8 @@
 
 .bundle-2 {
     background: #3B2D5D;
-    color: #E2E2E2
+    color: #FFFFFF;
+    padding: 30px
 }
 
 .bundle p {
