@@ -656,7 +656,7 @@
 /* FAQ */
 .FAQ {
     background-color: #F9F9F9;
-    padding: 40px 0px;
+    padding: 60px 0px;
 }
 
 .Questions {
@@ -675,9 +675,9 @@
 
 .mid-line {
     position: absolute;
-    width: 421px;
+    width: 395px;
     height: 0px;
-    left: 551px;
+    left: 560px;
     top: 211px;
 
     border: 3px solid #281A4B;
