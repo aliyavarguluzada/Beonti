@@ -359,10 +359,11 @@
 
 
 /* Features */
-/* .off {
+
+.off {
     display: flex;
     gap: 30px;
-} */
+}
 
 .feat {
     display: flex;
@@ -380,7 +381,7 @@
     font-size: 16px;
     line-height: 143.68%;
     /* or 23px */
-
+    width: 56%;
 
     /* text color */
 
@@ -422,12 +423,12 @@
 
 .feat-side-2 {
     padding: 30px;
-    display: flex;
+    /* display: flex; */
     /* flex-wrap: wrap; */
     align-items: center;
     justify-content: space-evenly;
     /* width: 33%; */
-    height: 390px;
+    /* height: 390px; */
 }
 
 .f3 {
@@ -437,19 +438,15 @@
     border: 2px solid #E8E6EB;
     box-shadow: 16px 0px 0px 0px #281A4B;
     border-radius: 3px;
+    width: 40%;
     /* width: 375px;
     height: 211px;
      */
 
 }
 .f3-3 {
-    padding: 20px;
-    width: 375px;
-    height: 397px;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+   display: flex;
+   justify-content: space-around;
 }
 
 .f3 * {
