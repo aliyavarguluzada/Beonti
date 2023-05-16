@@ -658,11 +658,14 @@
     background-color: #F9F9F9;
     padding: 40px 0px;
 }
+
 .Questions {
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
+
 .question {
     padding: 30px;
     padding-right: 180px;
@@ -670,5 +673,15 @@
     margin: 40px;
 }
 
+.mid-line {
+    position: absolute;
+    width: 421px;
+    height: 0px;
+    left: 551px;
+    top: 211px;
+
+    border: 3px solid #281A4B;
+    transform: rotate(90deg);
+}
 
 /* End FAQ */
