@@ -192,6 +192,7 @@
 }
 
 .get-started {
+    position: relative;
     user-select: none;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
@@ -604,9 +605,10 @@
 
 /* price */
 .prices {
+    position: relative;
     width: 76%;
     margin: auto;
-    padding: 40px;
+    padding: 80px 40px;
 
 }
 
@@ -642,15 +644,34 @@
     height: 600px;
 }
 
+.bundle-1 {
+    position: absolute;
+    top: 260px;
+    left: -20px;
+}
+
 .bundle h3 {
     padding-top: 30px;
 }
 
 .bundle-2 {
     position: relative;
+    position: absolute;
+    top: 168px;
+    left: 395px;
     background: #3B2D5D;
     color: #FFFFFF;
-    padding: 30px
+    padding: 30px;
+
+}
+
+.bundle-3 {
+    position: relative;
+    /* position: absolute; */
+    top: 82px;
+    left: 777px;
+    padding: 30px;
+
 }
 
 /* .bundle p {
@@ -662,7 +683,8 @@
     height: 385px;
     display: flex;
     align-items: end;
-    justify-content: center
+    justify-content: center;
+    position: relative;
 }
 
 /* End price */
