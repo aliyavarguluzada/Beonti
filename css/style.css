@@ -746,13 +746,18 @@
 
     padding: 50px;
 }
-
+.cont-act div {
+    padding: 10px;
+    padding-left: 0;
+}
 .cont-act {
     padding: 50px;
     background-color: #F9F9F9;
     border-radius: 20px;
 }
-
+.socials i {
+padding-right: 9px;
+}
 
 
 /* End Contact US */
