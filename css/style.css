@@ -610,6 +610,16 @@
 
 }
 
+.MVP {
+    position: absolute;
+    background-color: #FFFFFF;
+    color: #281A4B;
+    border-radius: 6px;
+    padding: 4px;
+    top: 3%;
+    left: 67%;
+}
+
 .plan {
     padding: 20px 0px;
     text-align: center;
@@ -632,7 +642,12 @@
     height: 600px;
 }
 
+.bundle h3 {
+    padding-top: 30px;
+}
+
 .bundle-2 {
+    position: relative;
     background: #3B2D5D;
     color: #FFFFFF;
     padding: 30px
@@ -650,7 +665,7 @@
     justify-content: center
 }
 
-/* price */
+/* End price */
 
 
 /* FAQ */
