@@ -699,6 +699,7 @@
     flex-direction: column;
     align-items: baseline;
 }
+
 .infos i {
     padding: 20px 0px;
 }
@@ -743,21 +744,42 @@
 /* Contact US */
 
 .contact-us {
-
-    padding: 50px;
+    padding: 100px 50px;
 }
+
 .cont-act div {
     padding: 10px;
     padding-left: 0;
 }
+
 .cont-act {
     padding: 50px;
     background-color: #F9F9F9;
     border-radius: 20px;
-}
-.socials i {
-padding-right: 9px;
+    display: flex;
+    justify-content: space-between;
+
 }
 
+.socials i {
+    padding-right: 9px;
+}
+
+.contact-2 p {
+    padding: 10px 0px;
+}
+
+.contact-3 p {
+    padding: 10px 0px;
+}
+
+.contact-3 button {
+    padding: 10px 50px;
+    background-color: #281A4B;
+    color: #FFFFFF;
+    border-radius: 6px;
+
+
+}
 
 /* End Contact US */
