@@ -782,4 +782,15 @@
 
 }
 
+input {
+    border-radius: 6px;
+    width: 389px;
+    height: 50px;
+}
+
+.big-input {
+    width: 389px;
+    height: 149px;
+}
+
 /* End Contact US */
