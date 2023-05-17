@@ -6,6 +6,12 @@
     font-family: regular;
 }
 
+li {
+    list-style-type: none;
+    justify-content: space-between;
+
+}
+
 #container {
     width: 85%;
     margin: auto;
@@ -794,3 +800,47 @@ input {
 }
 
 /* End Contact US */
+
+
+
+/* Footer */
+.foot {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-side-1 {
+    width: 33%;
+}
+
+.footer-side-2 {
+    /* width: 33%; */
+
+}
+
+.footer-side-3 {
+    /* width: 33%; */
+
+}
+
+.footer-side-4 {
+    /* width: 33%; */
+
+}
+
+.footer-side-5 {
+    /* width: 33%; */
+}
+
+.footer-side-5 input {
+    width: 258px;
+    height: 45px;
+
+    background: #FFFFFF;
+    /* main color */
+
+    border: 1px solid #281A4B;
+    border-radius: 15px;
+}
+
+/* End Footer */
