@@ -684,9 +684,13 @@
     align-items: end;
     justify-content: center;
 }
-.get-1 {
 
+.get-1 {
+    position: absolute;
+    top: 510px;
+    left: 90px;
 }
+
 /* End price */
 
 
