@@ -150,7 +150,6 @@ li {
 
 .img .active {
     display: flex;
-    transition: all 1s ease-in-out;
 }
 
 .are {
@@ -294,9 +293,6 @@ li {
     width: 480px;
     height: 400px;
     position: relative;
-    transition: all 1s ease-in-out;
-
-
 
     /* main color */
 
@@ -388,7 +384,7 @@ li {
     font-size: 16px;
     line-height: 143.68%;
     /* or 23px */
-    width: 56%;
+    width: 85%;
 
     /* text color */
 
@@ -447,6 +443,7 @@ li {
 }
 
 .f3-3 {
+    padding-top: 45px;
     display: flex;
     justify-content: space-around;
 }

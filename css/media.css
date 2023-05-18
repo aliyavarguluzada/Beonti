@@ -149,6 +149,32 @@
         width: 75%;
         margin: auto;
     }
+    /* features */
+    .off {
+        display: block;
+    }
+    .feat-side-1 {
+        width: 100%;
+    }
+    .f1 p {
+        width: 100%;
+    }
+    .f2-2 {
+        width: 100%;
+    }
+    .f2-2 h3 {
+        padding: 10px 20px;
+    }
+    .f2-2 p {
+        padding: 0px 20px;
+    }
+    .f3-3 {
+        display: block;
+    }
+    .f3 {
+        width: 100%;
+    }
+    /* End features */
 
 }
 
