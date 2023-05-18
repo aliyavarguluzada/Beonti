@@ -145,35 +145,66 @@
     .sponsors {
         overflow: scroll;
     }
+
     .container-2 {
         width: 75%;
         margin: auto;
     }
+
     /* features */
     .off {
         display: block;
     }
+
     .feat-side-1 {
         width: 100%;
     }
+
     .f1 p {
         width: 100%;
     }
+
     .f2-2 {
         width: 100%;
     }
+
     .f2-2 h3 {
         padding: 10px 20px;
     }
+
     .f2-2 p {
-        padding: 0px 20px;
+        padding: 10px 20px;
     }
+
     .f3-3 {
         display: block;
+        padding: 0px 0px;
     }
+
+    /* .f3-3 .f3 {
+        padding: 20px 0px;
+    } */
+
     .f3 {
         width: 100%;
+        margin-bottom: 16px;
+        border-radius: 0px
     }
+
+
+
+    .f5 {
+        padding: 23px 0px;
+    }
+
+    .f3 .f4 {
+        padding: 10px 0px;
+    }
+
+    .f6 {
+        padding: 0px 0px;
+    }
+
     /* End features */
 
 }
