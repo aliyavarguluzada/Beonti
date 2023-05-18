@@ -206,8 +206,87 @@
     }
 
     /* End features */
+    /*rectangle  */
+    .rectangle {
+        /* display: block; */
+    }
 
+    .rectangle-side-2 {
+        position: absolute;
+        top: 383px;
+        left: 0;
+        width: 100%;
+        text-align: initial;
+        padding-left: 30px;
+    }
+
+
+    .rot {
+        display: none;
+        visibility: hidden;
+    }
+
+    .unneed {
+        display: block;
+        visibility: visible;
+    }
+
+    .back {
+        width: 136px;
+        height: 167px;
+        border-radius: 3px;
+        position: absolute;
+        left: 8%;
+        top: 13%;
+    }
+
+    .frame-1 {
+        z-index: 1;
+        position: absolute;
+        top: 160px;
+        left: 50px;
+        width: 235px;
+        height: 99px;
+    }
+
+    .frame-2 {
+        top: -156%;
+        left: 50%;
+    }
+
+    .fra {
+        width: 170px;
+        height: 99px;
+    }
+
+    .fra p {
+        font-size: 12px;
+        padding: 13px 1px;
+        padding-left: 30px;
+    }
+
+    .frame .p-1 {
+        padding: 13px 1px;
+        padding-left: 30px;
+    }
+
+    .frame img {
+        width: 80px;
+        height: 80px;
+        position: absolute;
+        top: 43px;
+        left: -20px;
+    }
+
+    .frame .p-2 {
+        padding: 20px 0px;
+        padding-left: 30px;
+    }
 }
+
+/* End rectangle */
+
+
 
 
 /* ipad */

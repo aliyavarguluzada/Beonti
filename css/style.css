@@ -467,6 +467,14 @@ li {
 
 
 /* rectangle */
+.unneed {
+    display: none;
+    visibility: hidden;
+}
+
+.rot {
+    
+}
 
 .rectangle {
     height: 700px;
