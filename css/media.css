@@ -209,6 +209,7 @@
     /*rectangle  */
     .rectangle {
         /* display: block; */
+        height: 1170px;
     }
 
     .rectangle-side-2 {
@@ -250,7 +251,7 @@
     }
 
     .frame-2 {
-        top: -156%;
+        top: -90%;
         left: 50%;
     }
 
@@ -282,9 +283,14 @@
         padding: 20px 0px;
         padding-left: 30px;
     }
+    /* End rectangle */
+
+
+    .users {
+    overflow: hidden;
+    }
 }
 
-/* End rectangle */
 
 
 
