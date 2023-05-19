@@ -312,7 +312,7 @@
 
     /* End rectangle */
     .container-users h2 {
-        padding: 0;
+        padding: 0!important;
     }
 
     .users {
@@ -418,6 +418,14 @@
 
     .foot {
         display: block;
+    }
+
+    .footer-side-1 h3  {
+        padding: 0px;
+    }
+    .footer-side-1 p  {
+        padding: 0px;
+        width: 190px;
     }
 }
 
