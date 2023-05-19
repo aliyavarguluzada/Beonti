@@ -351,6 +351,48 @@
         display: block;
         position: initial;
     }
+
+
+    .Questions {
+        display: block;
+    }
+
+    .mid-line {
+        position: initial;
+        width: 340px;
+        height: 0px;
+        left: 560px;
+        top: 211px;
+        border: 3px solid #281A4B;
+        transform: rotate(0deg);
+        margin: auto;
+    }
+
+    .question {
+        padding: 30px;
+        /* padding-right: 180px; */
+        background-color: #FFFFFF;
+        margin: 40px;
+    }
+
+    .cont-act {
+        display: block;
+    }
+
+    .contact-us {
+        padding: 100px 0px;
+    }
+
+    .contact-us input {
+        width: 100%;
+    }
+
+
+
+
+    .foot {
+        display: block;
+    }
 }
 
 

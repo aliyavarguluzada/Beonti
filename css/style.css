@@ -784,6 +784,7 @@ li {
 }
 
 .contact-3 button {
+    float: right;
     padding: 10px 50px;
     background-color: #281A4B;
     color: #FFFFFF;
