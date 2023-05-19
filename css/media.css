@@ -312,7 +312,7 @@
 
     /* End rectangle */
     .container-users h2 {
-        padding: 0!important;
+        padding: 0 !important;
     }
 
     .users {
@@ -420,12 +420,47 @@
         display: block;
     }
 
-    .footer-side-1 h3  {
-        padding: 0px;
+    .footer-side-1 {
+        position: relative;
     }
-    .footer-side-1 p  {
+
+    .footer-side-1 h3 {
+        padding: 0px !important;
+    }
+
+
+    .footer-side-1 p {
+        padding: 10px 0px !important;
+        width: 190px !important;
+
+    }
+
+    .footer-side-1 span {
+        padding: 0px !important;
+    }
+
+    .footer-side-2 {
+        position: absolute;
+        /* width: 33%; */
+        padding: 0px 20px;
+        top: 856%;
+        left: 55%;
+    }
+
+    .footer-side-3 {
         padding: 0px;
-        width: 190px;
+        width: 52%;
+    }
+
+    .footer-side-4 {
+        position: absolute;
+        padding: 0px;
+        top: 884%;
+        left: 60%;
+    }
+
+    .footer-side-5 {
+        padding: 0px;
     }
 }
 
