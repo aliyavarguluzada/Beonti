@@ -291,6 +291,7 @@
 
     .users {
         overflow-x: scroll;
+        overflow-y: hidden;
     }
 
     .user-2 {
@@ -316,7 +317,7 @@
     }
 
     .bundles {
-        /* overflow: scroll; */
+        width: 1000px;
     }
 
     .bundle {
