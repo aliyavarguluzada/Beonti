@@ -12,6 +12,10 @@ li {
 
 }
 
+a {
+    text-decoration: none;
+}
+
 #container {
     width: 85%;
     margin: auto;
@@ -171,6 +175,11 @@ li {
 
 }
 
+.are a {
+    text-decoration: none;
+    color: #281A4B;
+}
+
 .login {
     user-select: none;
     -webkit-touch-callout: none;
@@ -196,6 +205,10 @@ li {
     color: #FFFFFF;
     cursor: pointer;
     font-family: regular;
+}
+
+.login a {
+    color: #F8F8FA;
 }
 
 .get-started {
@@ -896,6 +909,10 @@ input {
 
 
 /* Welcome */
+/* Welcome */
+/* Welcome */
+/* Welcome */
+/* Welcome */
 
 .welcome {
     text-align: center;
@@ -905,9 +922,9 @@ input {
 .welcome h3 {
     padding: 40px 0px;
 }
-.businesses {
 
-}
+.businesses {}
+
 .business-1 {
     display: flex;
     justify-content: space-between;
@@ -934,3 +951,43 @@ input {
 
 
 /* End Welcome */
+/* End Welcome */
+/* End Welcome */
+/* End Welcome */
+/* End Welcome */
+/* End Welcome */
+
+
+
+/* Login-Page */
+/* Login-Page */
+/* Login-Page */
+/* Login-Page */
+/* Login-Page */
+/* Login-Page */
+/* Login-Page */
+.login-page {
+    background-image: url(/images/backgroi.png);
+    background-size: cover;
+    height: 858px;
+}
+
+.login-prompt {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding-top: 100px;
+    position: absolute;
+    width: 502px;
+    height: 554px;
+    left: 505px;
+    top: 152px;
+
+}
+
+/* End Login-Page */
+/* End Login-Page */
+/* End Login-Page */
+/* End Login-Page */
+/* End Login-Page */
+/* End Login-Page */
+/* End Login-Page */
