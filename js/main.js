@@ -34,3 +34,10 @@ tapBack.addEventListener("click", function () {
 
 
 
+let burger = document.querySelector(".burger");
+
+burger.addEventListener("click", function(){
+    let nav = document.querySelector(".nav-list");
+    nav.classList.toggle("nav-active");
+    console.log("asdnaishduiad");
+})
