@@ -614,6 +614,7 @@ li {
 
 /* price */
 .prices {
+    height: 1000px;
     position: relative;
     width: 76%;
     margin: auto;
