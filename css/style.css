@@ -905,12 +905,24 @@ input {
 .welcome h3 {
     padding: 40px 0px;
 }
+.businesses {
 
+}
 .business-1 {
     display: flex;
     justify-content: space-between;
     width: 88%;
     margin: auto;
+    padding: 20px 0px;
+}
+
+.business-2 {
+    display: flex;
+    justify-content: space-between;
+    width: 88%;
+    margin: auto;
+    padding: 20px 0px;
+
 }
 
 .business-1 img {
