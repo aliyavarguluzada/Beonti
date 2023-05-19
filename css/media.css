@@ -283,11 +283,32 @@
         padding: 20px 0px;
         padding-left: 30px;
     }
-    /* End rectangle */
 
+    /* End rectangle */
+    .container-users h2 {
+        padding: 0;
+    }
 
     .users {
-    overflow: hidden;
+        overflow-x: scroll;
+    }
+
+    .user-2 {
+        padding: 0px 40px;
+    }
+
+    .users img {
+        width: 278px;
+        height: 280px;
+    }
+
+    .user-content {
+        position: absolute;
+        top: 120px;
+        left: 70px;
+        width: 278px;
+        padding: 20px;
+        
     }
 }
 
