@@ -308,7 +308,47 @@
         left: 70px;
         width: 278px;
         padding: 20px;
-        
+
+    }
+
+    .prices {
+        /* overflow: scroll; */
+    }
+
+    .bundles {
+        /* overflow: scroll; */
+    }
+
+    .bundle {
+        width: 343px;
+        height: 540px;
+        padding: 40px 25px;
+        overflow: scroll;
+    }
+
+    .bundle h3 {
+        padding: 25px 0px;
+    }
+
+    .bundle-2 {
+        position: relative;
+        position: absolute;
+        top: 260px;
+        left: 395px;
+        background: #3B2D5D;
+        color: #FFFFFF;
+        padding: 30px 25px;
+    }
+
+    .get-1 {
+        position: absolute;
+        top: 485px;
+        left: 75px;
+    }
+
+    .get-part-2 {
+        display: block;
+        position: initial;
     }
 }
 

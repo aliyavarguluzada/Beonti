@@ -676,9 +676,9 @@ li {
 
 .bundle-3 {
     position: relative;
-    /* position: absolute; */
-    top: 39px;
-    left: 777px;
+    position: absolute;
+    top: 260px;
+    left: 810px;
     padding: 30px;
 
 }
