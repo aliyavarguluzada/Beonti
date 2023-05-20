@@ -652,9 +652,11 @@ a {
     padding-bottom: 0px;
     text-align: center;
 }
+
 .plan h2 {
     padding: 20px 0px;
 }
+
 .bundles {
     display: flex;
     padding: 50px 0px;
@@ -1041,8 +1043,8 @@ input {
     position: absolute;
     width: 502px;
     height: 554px;
-    left: 505px;
-    top: 152px;
+    left: 33%;
+    top: 25%;
 
 }
 

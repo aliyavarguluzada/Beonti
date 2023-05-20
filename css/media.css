@@ -352,7 +352,7 @@
         height: 540px;
         padding: 40px 25px;
         top: 0;
-        
+
     }
 
     .bundle h3 {
@@ -441,29 +441,69 @@
         padding: 0px !important;
     }
 
-    .footer-side-2 {
+    /* .footer-side-2 {
         position: absolute;
         /* width: 33%; */
-        padding: 0px 20px;
+        /* padding: 0px 20px;
         top: 856%;
         left: 55%;
-    }
+    } */ 
 
     .footer-side-3 {
         padding: 0px;
         width: 52%;
     }
 
-    .footer-side-4 {
+    /* .footer-side-4 {
         position: absolute;
         padding: 0px;
         top: 884%;
         left: 60%;
-    }
+    } */
 
     .footer-side-5 {
         padding: 0px;
     }
+
+
+    /* login */
+    /* login */
+    /* login */
+    /* login */
+    /* login */
+    /* login */
+    /* login */
+    /* login */
+
+    .login-page {
+        background-image: none;
+        height: 0%;
+    }
+    .login-prompt {
+        position:static;
+        width: 100%;
+        height: 100%;
+    }
+    input {
+        /* width: 350px;
+        height: 50px; */
+        width: 85%;
+        height: 50px;
+        padding: 0px 10px;
+    }
+    label {
+        padding: 0px 24px;
+    }
+
+
+
+    /* End login */
+    /* End login */
+    /* End login */
+    /* End login */
+    /* End login */
+    /* End login */
+    /* End login */
 }
 
 
