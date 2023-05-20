@@ -1091,11 +1091,26 @@ label {
 /* Create a business */
 /* Create a business */
 
+.create-bs {
+    display: flex;
+    width: 50%;
+    padding-left: 50px;
+}
 
+.bs-1 {
+    display: block;
+    /* width: 23%; */
+}
 
+.bs-2 {
+    display: block;
+    /* width: 23%; */
+}
 
-
-
+.create-photos {
+    margin: 70px 0px;
+    margin-top: 0px;
+}
 
 
 
