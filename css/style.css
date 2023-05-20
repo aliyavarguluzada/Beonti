@@ -969,19 +969,40 @@ input {
 .login-page {
     background-image: url(/images/backgroi.png);
     background-size: cover;
-    height: 858px;
+    /* height: 858px; */
+    background-repeat: no-repeat;
+    /* width: 100vw; */
+    height: 100vh;
 }
 
 .login-prompt {
+    font-family: regular;
     text-align: center;
     background-color: #FFFFFF;
-    padding-top: 100px;
+    padding-top: 30px;
     position: absolute;
     width: 502px;
     height: 554px;
     left: 505px;
     top: 152px;
 
+}
+
+.login-prompt p {
+    padding: 15px 0px;
+}
+
+.login-prompt form label {
+    font-weight: 400;
+}
+
+label {
+    float: left;
+    padding: 0px 57px;
+}
+
+.footer-login {
+    padding: 70px 0px;
 }
 
 /* End Login-Page */
