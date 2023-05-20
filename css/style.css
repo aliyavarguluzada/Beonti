@@ -924,7 +924,7 @@ input {
 }
 
 .photos {
-    overflow: hidden;
+    /* overflow: hidden; */
     position: relative;
     background-color: #281A4B;
     /* display: flex; */
@@ -938,7 +938,30 @@ input {
 
 .photo {
     transition: 1s all ease-in-out;
+    width: 317px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
 
+}
+
+.photo p {
+    padding: 10px;
+    padding-top: 20px;
+    width: 45%;
+    float: right;
+    color: #FFFFFF;
+    text-align: center;
+    overflow-block: auto;
+}
+
+.photos p {
+    text-align: center;
+    padding: 10px;
+}
+
+.businesses {
+    padding-bottom: 75px;
 }
 
 .business-1 {
