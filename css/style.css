@@ -629,7 +629,7 @@ a {
 
 /* price */
 .prices {
-    height: 1000px;
+    height: 850px;
     position: relative;
     width: 76%;
     margin: auto;
@@ -648,10 +648,13 @@ a {
 }
 
 .plan {
-    padding: 20px 0px;
+    padding: 80px 0px;
+    padding-bottom: 0px;
     text-align: center;
 }
-
+.plan h2 {
+    padding: 20px 0px;
+}
 .bundles {
     display: flex;
     padding: 50px 0px;
@@ -671,7 +674,7 @@ a {
 
 .bundle-1 {
     position: absolute;
-    top: 260px;
+    top: 120px;
     left: -20px;
 }
 
@@ -682,7 +685,7 @@ a {
 .bundle-2 {
     position: relative;
     position: absolute;
-    top: 168px;
+    top: 70px;
     left: 395px;
     background: #3B2D5D;
     color: #FFFFFF;
@@ -693,7 +696,7 @@ a {
 .bundle-3 {
     position: relative;
     position: absolute;
-    top: 260px;
+    top: 120px;
     left: 810px;
     padding: 30px;
 
@@ -1067,3 +1070,41 @@ label {
 /* End Login-Page */
 /* End Login-Page */
 /* End Login-Page */
+
+
+
+
+
+
+
+
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+
+
+
+
+
+
+
+
+
+
+/*End  Create a business */
+/*End  Create a business */
+/*End  Create a business */
+/*End  Create a business */
+/*End  Create a business */
+/*End  Create a business */
+/*End  Create a business */
+/*End  Create a business */
+/*End  Create a business */
+/*End  Create a business */

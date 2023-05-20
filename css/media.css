@@ -339,7 +339,8 @@
     }
 
     .prices {
-        /* overflow: scroll; */
+        overflow-y: hidden;
+        overflow-x: scroll;
     }
 
     .bundles {
@@ -350,7 +351,8 @@
         width: 343px;
         height: 540px;
         padding: 40px 25px;
-        overflow: scroll;
+        top: 0;
+        
     }
 
     .bundle h3 {
