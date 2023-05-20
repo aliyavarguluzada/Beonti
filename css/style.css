@@ -923,7 +923,22 @@ input {
     padding: 40px 0px;
 }
 
-.businesses {}
+.photos {
+    overflow: hidden;
+    position: relative;
+    background-color: #281A4B;
+    /* display: flex; */
+    border-radius: 3px;
+    width: 318px;
+    height: 260px;
+
+
+}
+
+.photo {
+    transition: 1s all ease-in-out;
+
+}
 
 .business-1 {
     display: flex;
@@ -943,9 +958,20 @@ input {
 }
 
 .business-1 img {
-    height: 260px;
-    width: 318px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
 
+.business-2 img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.photos:hover img {
+    left: -50%;
+    transition: 0.5s all ease-in-out;
 }
 
 
