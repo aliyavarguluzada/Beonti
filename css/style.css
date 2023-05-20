@@ -929,8 +929,9 @@ input {
     background-color: #281A4B;
     /* display: flex; */
     border-radius: 3px;
-    width: 318px;
+    width: 317px;
     height: 260px;
+    transition: 0.5s all ease-in-out;
 
 
 }
@@ -961,12 +962,17 @@ input {
     position: absolute;
     top: 0;
     left: 0;
+    transition: 0.5s all ease-in-out;
+
 }
 
 .business-2 img {
     position: absolute;
     top: 0;
     left: 0;
+    transition: 0.5s all ease-in-out;
+
+
 }
 
 .photos:hover img {
