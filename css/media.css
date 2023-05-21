@@ -447,7 +447,8 @@
 
     .footer-side-2 {
         width: 33%;
-       
+        padding: 0;
+
     }
 
     .footer-side-3 {
@@ -455,22 +456,22 @@
         width: 52%;
     }
 
-    /* .footer-side-4 {
-        position: absolute;
+    .footer-side-4 {
         padding: 0px;
-        top: 884%;
-        left: 60%;
-    } */
+
+    }
 
     .footer-side-5 {
         padding: 0px;
     }
+
     textarea {
-            margin: 1px;
-            border: 1px solid black;
-            border-radius: 6px; 
-            width: 100%;
+        margin: 1px;
+        border: 1px solid black;
+        border-radius: 6px;
+        width: 100%;
     }
+
     /* End index */
     /* End index */
     /* End index */
