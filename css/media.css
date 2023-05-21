@@ -444,10 +444,10 @@
     /* .footer-side-2 {
         position: absolute;
         /* width: 33%; */
-        /* padding: 0px 20px;
+    /* padding: 0px 20px;
         top: 856%;
         left: 55%;
-    } */ 
+    } */
 
     .footer-side-3 {
         padding: 0px;
@@ -479,11 +479,13 @@
         background-image: none;
         height: 0%;
     }
+
     .login-prompt {
-        position:static;
+        position: static;
         width: 100%;
         height: 100%;
     }
+
     input {
         /* width: 350px;
         height: 50px; */
@@ -491,6 +493,7 @@
         height: 50px;
         padding: 0px 10px;
     }
+
     label {
         padding: 0px 24px;
     }
@@ -504,6 +507,67 @@
     /* End login */
     /* End login */
     /* End login */
+
+
+    /* Welcome */
+    /* Welcome */
+    /* Welcome */
+    /* Welcome */
+    /* Welcome */
+    /* Welcome */
+    /* Welcome */
+
+    .businesses {
+        display: flex;
+    }
+
+    .business-1 {
+        display: flex;
+        flex-direction: column;
+        margin-left: 7%;
+    }
+
+    .business-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .photo {
+        height: 190px;
+        width: 160px;
+    }
+
+
+
+    .photos {
+        margin: 27px 0px;
+        /* overflow: hidden; */
+        position: relative;
+        background-color: #281A4B;
+        /* display: flex; */
+        border-radius: 3px;
+        width: 160px;
+        height: 190px;
+        transition: 0.5s all ease-in-out;
+    }
+
+
+
+    /* End Welcome */
+    /* End Welcome */
+    /* End Welcome */
+    /* End Welcome */
+    /* End Welcome */
+    /* End Welcome */
+    /* End Welcome */
+    /* End Welcome */
+
+
+
+
+
+
+
 }
 
 
