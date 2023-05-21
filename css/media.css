@@ -569,7 +569,47 @@
     /* End Welcome */
     /* End Welcome */
 
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
+/* Create a business */
 
+.creati {
+    display: flex;
+    flex-direction: column;
+
+}
+.create-form {
+    width: 85%;
+}
+.create-form input {
+    padding: 0;
+    width: 100%;
+} 
+.create-photos {
+    /* margin: 0px 10px; */
+}
+.create-bs {
+    order: 1;
+}
+.bs-1 {
+    margin: 0px 20px;
+}
+.create-bs {
+    padding: 0px;
+
+}
+
+/* End Create a business */
+/* End Create a business */
+/* End Create a business */
+/* End Create a business */
+/* End Create a business */
+/* End Create a business */
+/* End Create a business */
 
 
 
