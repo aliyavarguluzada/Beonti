@@ -1112,8 +1112,25 @@ label {
     margin-top: 0px;
 }
 
-
-
+.create-form label {
+    /* margin: 10px 0px; */
+}
+.create-form input {
+    padding: 20px 0px;
+    margin: 15px 0px;
+}
+.form-factor {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+.form-factor p {
+    padding: 25px 0px;
+}
+.form-factor label {
+    padding: 0px;
+}
 
 
 /*End  Create a business */
