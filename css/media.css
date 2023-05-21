@@ -526,7 +526,14 @@
         flex-direction: column;
         margin-left: 7%;
     }
-
+.business-1 img {
+    height: 100%;
+    width: 100%;
+}
+.business-2 img {
+    height: 100%;
+    width: 100%;
+}
     .business-2 {
         display: flex;
         flex-direction: column;
