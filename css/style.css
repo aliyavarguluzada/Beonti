@@ -1056,9 +1056,9 @@ input {
     font-weight: 400;
 }
 
-label {
+.login-page label {
     float: left;
-    padding: 0px 57px;
+    /* padding: 0px 57px; */
 }
 
 .footer-login {

@@ -362,7 +362,7 @@
     .bundle-2 {
         position: relative;
         position: absolute;
-        top: 260px;
+        top: 0;
         left: 395px;
         background: #3B2D5D;
         color: #FFFFFF;
@@ -373,6 +373,10 @@
         position: absolute;
         top: 485px;
         left: 75px;
+    }
+
+    .get {
+        top: -45px;
     }
 
     .get-part-2 {
@@ -441,13 +445,10 @@
         padding: 0px !important;
     }
 
-    /* .footer-side-2 {
-        position: absolute;
-        /* width: 33%; */
-    /* padding: 0px 20px;
-        top: 856%;
-        left: 55%;
-    } */
+    .footer-side-2 {
+        width: 33%;
+       
+    }
 
     .footer-side-3 {
         padding: 0px;
@@ -464,7 +465,18 @@
     .footer-side-5 {
         padding: 0px;
     }
-
+    textarea {
+            margin: 1px;
+            border: 1px solid black;
+            border-radius: 6px; 
+            width: 100%;
+    }
+    /* End index */
+    /* End index */
+    /* End index */
+    /* End index */
+    /* End index */
+    /* End index */
 
     /* login */
     /* login */
@@ -494,8 +506,8 @@
         padding: 0px 10px;
     }
 
-    label {
-        padding: 0px 24px;
+    .login-page label {
+        padding: 0px 30px;
     }
 
 
@@ -526,14 +538,17 @@
         flex-direction: column;
         margin-left: 7%;
     }
-.business-1 img {
-    height: 100%;
-    width: 100%;
-}
-.business-2 img {
-    height: 100%;
-    width: 100%;
-}
+
+    .business-1 img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .business-2 img {
+        height: 100%;
+        width: 100%;
+    }
+
     .business-2 {
         display: flex;
         flex-direction: column;
@@ -569,47 +584,54 @@
     /* End Welcome */
     /* End Welcome */
 
-/* Create a business */
-/* Create a business */
-/* Create a business */
-/* Create a business */
-/* Create a business */
-/* Create a business */
-/* Create a business */
+    /* Create a business */
+    /* Create a business */
+    /* Create a business */
+    /* Create a business */
+    /* Create a business */
+    /* Create a business */
+    /* Create a business */
 
-.creati {
-    display: flex;
-    flex-direction: column;
+    .creati {
+        display: flex;
+        flex-direction: column;
 
-}
-.create-form {
-    width: 85%;
-}
-.create-form input {
-    padding: 0;
-    width: 100%;
-} 
-.create-photos {
-    /* margin: 0px 10px; */
-}
-.create-bs {
-    order: 1;
-}
-.bs-1 {
-    margin: 0px 20px;
-}
-.create-bs {
-    padding: 0px;
+    }
 
-}
+    .create-form {
+        width: 85%;
+    }
 
-/* End Create a business */
-/* End Create a business */
-/* End Create a business */
-/* End Create a business */
-/* End Create a business */
-/* End Create a business */
-/* End Create a business */
+    .create-form input {
+        padding: 0;
+        width: 100%;
+    }
+
+    .create-photos {
+        /* margin: 0px 10px; */
+    }
+
+    .create-bs {
+        order: 1;
+    }
+
+    .bs-1 {
+        margin: 0px 20px;
+    }
+
+    .create-bs {
+        padding: 0px;
+
+    }
+
+
+    /* End Create a business */
+    /* End Create a business */
+    /* End Create a business */
+    /* End Create a business */
+    /* End Create a business */
+    /* End Create a business */
+    /* End Create a business */
 
 
 
